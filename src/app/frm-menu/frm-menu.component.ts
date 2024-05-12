@@ -9,6 +9,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { Observable } from 'rxjs';
 import { map, shareReplay } from 'rxjs/operators';
 import { MatSidenav } from '@angular/material/sidenav';
+import { CadastroComponent } from '../cadastro/cadastro.component';
 
 @Component({
   selector: 'app-frm-menu',
@@ -22,6 +23,7 @@ import { MatSidenav } from '@angular/material/sidenav';
     MatListModule,
     MatIconModule,
     AsyncPipe,
+    CadastroComponent
   ]
 })
 export class FrmMenuComponent {

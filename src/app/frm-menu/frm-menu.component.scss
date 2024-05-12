@@ -1,3 +1,4 @@
+
 .sidenav-container {
   height: 100%;
 }
@@ -15,4 +16,9 @@
   top: 0;
   z-index: 1;
   background-color: #438eb9;
+}
+
+.alinhaicon mat-icon {
+  vertical-align: middle;
+  margin-right: 15px;
 }
